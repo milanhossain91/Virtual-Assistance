@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    // font-family: "Poppins", sans-serif;
+    background: url(../images/bg.png) no-repeat bottom;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 50px 16px;
+}
+
+.wrapper {
+    transition: all 0.3s ease;
+}
+
+.btn-submit {
+    @apply bg-[#072C66] text-white px-10 py-1 uppercase font-medium tracking-wide rounded-md border border-[#072C66] hover:bg-white hover:text-[#072C66]
+}
